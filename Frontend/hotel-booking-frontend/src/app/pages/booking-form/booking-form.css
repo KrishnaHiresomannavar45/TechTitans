@@ -1,0 +1,13 @@
+.summary-box{
+  border:1px solid #ccc;
+  padding:15px;
+  width:350px;
+  margin-bottom:20px;
+  border-radius:8px;
+}
+
+input,
+textarea{
+  width:350px;
+  padding:8px;
+}

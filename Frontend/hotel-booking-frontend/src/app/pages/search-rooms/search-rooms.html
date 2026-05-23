@@ -1,0 +1,51 @@
+<h2>Search Rooms</h2>
+
+<input type="text" placeholder="Destination">
+<br><br>
+
+<input type="date">
+<br><br>
+
+<input type="date">
+<br><br>
+
+<input type="number" placeholder="Guests">
+<br><br>
+
+<button type="button" (click)="searchRooms()">
+  Search
+</button>
+
+<hr>
+
+@if(showRooms){
+
+<div class="room-card">
+  <h3>Deluxe Room</h3>
+
+  <p>₹3500 per night</p>
+
+  <p>
+    WiFi | AC | Breakfast
+  </p>
+
+  <button routerLink="/room-details">
+    View Details
+  </button>
+</div>
+
+<div class="room-card">
+  <h3>Suite Room</h3>
+
+  <p>₹5000 per night</p>
+
+  <p>
+    WiFi | AC | Pool | Parking
+  </p>
+
+  <button routerLink="/room-details">
+    View Details
+  </button>
+</div>
+
+}
